@@ -1245,6 +1245,10 @@ This setup ensures that if one Availability Zone experiences issues, your applic
 ## Conclusion:
 Yes, you can make a VPC available across multiple Availability Zones by creating subnets in each AZ. This allows you to build highly available, fault-tolerant applications within a region by distributing resources across different Availability Zones.
 
+# Q. For Internet Gateways do you find any Bandwidth constraints? 
+No, Internet Gateways (IGWs) in AWS do not have specific bandwidth constraints. An Internet Gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between instances in your VPC and the internet.
+
+
 
 
 
